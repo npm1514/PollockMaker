@@ -3,12 +3,28 @@
   <head>
     <title></title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Montez|Oswald' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-    <splat>
-    </splat>
+  <body ng-controller="splatCtrl">
+    <header>
+      <h1>Pollock Painter</h1>
+      <hr>
+      <button type="button" ng-click="splat()">Push to Splat!</button>
+      <hr>
+    </header>
+    <div class="splat">
 
+      <br>
+      <br>
+      <splat></splat>
+    </div>
 
+    <footer>
+      <br>
+      <hr>
+      <p>Copyright usaMoves 2016</p>
+      <p>In association with <a target="_blank" href="http://www.sol-innovations.com">Sol Innovations</a> and <a target="_blank" href="http://www.nickmarucci.com">Nick Marucci Web Development</a>.</p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
     <script src="d3.v3.min.js"></script>

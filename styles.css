@@ -2,6 +2,8 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  text-align: center;
+  font-family: "Oswald";
 }
 
 svg, .line {
@@ -9,8 +11,22 @@ svg, .line {
 }
 
 splat {
-  width: 100vw;
-  height: 100vh;
   display: inline-block;
+  margin: auto;
+}
+
+button {
+  font-family: "Oswald";
+  font-size: 30px;
+  background-color: rgb(70, 76, 159);
+  color: #fff;
+}
+
+button:hover {
+  color: rgb(251, 255, 52);
+}
+
+header, footer {
+  width: 90vw;
   margin: auto;
 }
